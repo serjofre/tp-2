@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "texto": "Baldosa Recta",
+      "foto": "Baldosa-Rustica-40.jpeg",
+      "descripcion":"Baldosa sementicia color crudo ",
+      "estrellas": "*****"
+    },
+    {
+      "id": 2,
+      "texto": "Baldosa Abanico",
+      "precio": 1000000.56,
+      "foto":"BaldosaAbanico.jpg",
+      "descripcion":"Baldosa abanico sementicia color negro ",
+      "estrellas": "***"
+    },
+    {
+      "id": 3,
+      "texto": "Adoquin para Cesped",
+      "foto":"numeral.jpg",
+      "estrellas": "**",
+      "descripcion":"Adoquin para cesped"
+    },
+    {
+        "id": 4,
+        "texto": "Tarea 4 ds",
+        "estrellas": "**",
+        "descripcion":"Baldosa sementicia color crudo "
+    }
+  ]

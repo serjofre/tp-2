@@ -1,0 +1,23 @@
+.fcc-btn, header {
+    background-color: #516951;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+      }
+  
+  .fcc-btn:hover {
+    background-color: #19bd58;
+  }
+
+  #lista-tareas {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      
+          }
+
+article {
+    padding: 1em;
+    margin: 1em;
+}
+
