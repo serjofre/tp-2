@@ -33,9 +33,6 @@ h2 {
     text-decoration: none;
 }
 
- img, p {
-  
-  margin: 1em;
-  padding: 3px;
-}
-
+ .presentacion, p {
+      padding: 0.5em;
+ }
