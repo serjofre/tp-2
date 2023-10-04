@@ -27,7 +27,9 @@ const createTask = (tarea) => {
   const tareaHTML = `
     <article>
         <h2 class="fcc-btn" data-id="${tarea.id}">${tarea.nombre}</h2>
+        <br>
         <p>${tarea.texto}</p>
+        <br>
         <img src="img/${foto}" width="100" alt="...">
 
     </article>
