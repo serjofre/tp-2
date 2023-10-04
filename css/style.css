@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .fcc-btn, header {
     background-color: #516951;
     color: white;
