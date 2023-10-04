@@ -75,7 +75,7 @@ const createTask = (tarea) => {
         <p><strong>Codigo del producto: </strong>${tarea.id}</p>
         <p>${tarea.descripcion}</p>
         <img src="img/${foto}" width="300" alt="...">
-        <p><strong>Precio: </strong>${tarea.precio}</p>
+        <p><strong>Precio: </strong>$ ${tarea.precio}</p>
         <p> ${ p.textContent}</p>
     </article>
   `;
