@@ -72,16 +72,10 @@ const createTask = (tarea) => {
   const tareaHTML = `
     <article>
         <h2 data-id="${tarea.id}">${tarea.texto}</h2>
-        <br>
         <p><strong>Codigo del producto: </strong>${tarea.id}</p>
-        <br>
         <p>${tarea.descripcion}</p>
-        <br>
         <img src="img/${foto}" width="300" alt="...">
-        <br>
-        <br>
         <p><strong>Precio: </strong>$ ${tarea.precio}</p>
-        <br>
         <p> ${ p.textContent}</p>
     </article>
   `;
