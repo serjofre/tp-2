@@ -2,30 +2,37 @@
 [   
    {
       "id": 1,
-      "texto": "Baldosa Recta",
+      "nombre":"Baldosa Recta",
+      "texto": "Baldosa Recta color crudo",
       "foto": "Baldosa-Rustica-40.jpeg",
-      "descripcion":"Baldosa sementicia color crudo ",
+      "descripcion":"Baldosa recta color crudo, medidas 40x40 cm. <br>su uso es tanto para interior como exterior,<br>colocacion siempre sobre carpeta de hormigon.",
+      "precio": 156565.51,
       "estrellas": "*****"
     },
     {
       "id": 2,
-      "texto": "Baldosa Abanico",
-      "precio": 1000000.56,
+      "nombre":"Baldosa Abanico",
+      "texto": "Baldosa Abanico negra",
+      "precio": 1000000.52,
       "foto":"BaldosaAbanico.jpg",
-      "descripcion":"Baldosa abanico sementicia color negro ",
+      "descripcion":"Baldosa color negro, medidas 40x40 cm. <br>su uso es tanto para interior como exterior,<br>colocacion siempre sobre carpeta de hormigon.",
       "estrellas": "***"
     },
     {
       "id": 3,
+      "nombre":"Baldosa para Cesped",
       "texto": "Adoquin para Cesped",
       "foto":"numeral.jpg",
       "estrellas": "**",
-      "descripcion":"Adoquin para cesped"
+      "precio": 10056.53,
+      "descripcion":"Adoquin para cesped, ideal para hacer senderos y <br> caminos de huella de veiculos,gran resistencia."
     },
     {
         "id": 4,
+        "nombre":"Producto Nuevo",
         "texto": "Producto Nuevo",
         "estrellas": "**",
-        "descripcion":"Baldosa sementicia color crudo "
+        "precio": 1584000.54,
+        "descripcion":"Este es un producto nuevo,<br> del cual no tenemos información,<br> pero seguro que<strong> es muy bueno </strong>"
     }
   ]

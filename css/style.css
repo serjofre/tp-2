@@ -21,3 +21,9 @@ article {
     margin: 1em;
 }
 
+h2 {
+  background-color: #516951;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+}

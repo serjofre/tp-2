@@ -7,99 +7,15 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div>
-        <h2>detalle</h2>
-
-           
-    <div id="lista-tareas">
-        
-    </div>
-        <script>
-           /* tareas = localStorage.getItem("tareas");
-            id = sessionStorage.getItem("id");
-
-            console.log(tareas.id);*/
-            console.log("hola");
-           /* for(var i = 0; i < sessionStorage.length; i++){
-                var clave = sessionStorage.key(i);
-                var valor = sessionStorage.getItem(clave);
-                console.log(clave + ": " + valor);
-          
-                }
-             *---------------------------------------------------*/
-                /*var idBuscado = 'tuID'; // Reemplaza 'tuID' con el ID que estás buscando
-                var valorBuscado;
-
-                for (var i = 0; i < localStorage.length; i++){
-                    var clave = localStorage.key(i);
-                    if (clave === idBuscado) {
-                        valorBuscado = localStorage.getItem(clave);
-                        break;
-                    }
-                }
-
-                if (valorBuscado) {
-                    console.log('Valor del idBuscado: ' + valorBuscado);
-                } else {
-                    console.log('idBuscado no se encontró en localStorage');
-                }*/
-                let idSet = sessionStorage.getItem('id');
-                    console.log(idSet); 
-             //-------------------------------------------------------
-                    const listaTareas = document.querySelector("#lista-tareas");
-                    let tareas;
-
-                    const loadTask = async () => {
-                    localStorage.clear();
-                    listaTareas.innerHTML = "";
-
-                    tareas = localStorage.getItem("tareas");
-
-                    if (tareas == null) {
-                        const response = await fetch("json/tareas.json");
-                        tareas = await response.json();
-
-                        localStorage.setItem("tareas", JSON.stringify(tareas));
-                    }
-
-                    if (typeof tareas == "string") {
-                        tareas = JSON.parse(tareas);
-                    }
-
-
-                    iden = sessionStorage.getItem("tareas");
-                    console.log(iden)
-                    //tareas.forEach(createTask);
-                    };
-
-                    //----------------
-                    
-
-                    const createTask = (tarea) => {
-                    const foto = tarea.foto ?? "noDisponible.jpg";
-
-                    const tareaHTML = `
-                        <article>
-                            <h2 class="fcc-btn" data-id="${tarea.id}">${tarea.texto}</h2>
-                            <p>${tarea.descripcion}</p>
-                            <img src="img/${foto}" width="50" alt="...">
-
-                        </article>
-                    `;
-                    listaTareas.innerHTML += tareaHTML;
-                    };
-
-                    loadTask();
-                                     
-             
-            </script>
+    <header>
+        <h1>Detalles del Producto</h1>
+      </header>
                 
+    <div id="lista-tareas">    </div>
 
-    </div>
-
- 
-
+    
     <a class="fcc-btn" href="index.html">volver</a>
+    <script src="js/mostrarDetalle.js"></script>
 
 
 </body>
